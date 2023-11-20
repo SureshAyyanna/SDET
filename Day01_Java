@@ -1,0 +1,36 @@
+Create new java project from File > New > Project > Java Project and give your
+project name. (Note: Make sure java is set to the same version as your jdk version
+in the execution environment dropdown)
+- Click on Finish button
+- Right click on project name and select New > Package. Click on finish button.
+- Create New Class - Right click on package and create new class with the desired name.
+
+First Program – ‘Hello World’. Type the following:
+public static void main(String[] args)
+{
+System.out.println("Hello World");
+}
+- Run this program by right-click on the class and select Run As Java Application.
+
+MAIN Method: public static void main(String[] args)
+- public – To make the main method accessible to the Compiler and JVM
+- static – To call methods in Java we need to make objects of the class. Since this is
+the main method and it needs to be called by default, we need to define the static
+keyword
+- void - the 'void' keyword is used in Java when the method does not aim to return a
+value or hold any value.
+- main - It's just the name of method. This name is fixed and it's called by the JVM
+as entry point for an application
+- String[] args – Main method can only accept String arguments
+
+Comments:
+Comments are ignored by the compiler but are useful to other programmers
+- Three ways to comment code
+> 1
+/* text */
+> 2
+/*
+The class implements an application that simply prints
+"Hello World!" to standard output.
+*/
+> 3 // text
